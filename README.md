@@ -73,3 +73,16 @@ USES cairo, or define it before including the cairo header files.
 
 Original project's sourceforge page at:
 https://sourceforge.net/projects/cairosolutionvs2012
+
+
+Done with cygwin x64:
+- sourceforge.net/projects/pkgconfiglite/files/ -> put in 
+- install libtool
+	- setup-x86.exe -q -P libtool
+libtoolize --force
+aclocal
+autoheader
+automake --force-missing --add-missing
+autoconf
+
+- autoreconf --install
