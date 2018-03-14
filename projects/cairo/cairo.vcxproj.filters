@@ -453,8 +453,32 @@
     <ClInclude Include="src\cairo-features.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\cairo\src\cairo-line-private.h">
+    <ClInclude Include="..\..\cairo\src\cairo-line-inline.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-script-private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\cairo-version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-line-private.h">
+      <Filter>Header Files\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-tag-attributes-private.h">
+      <Filter>Header Files\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-tag-stack-private.h">
+      <Filter>Header Files\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cairo\src\cairo-tee-surface-private.h">
+      <Filter>Header Files\Private</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -855,6 +879,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\cairo\src\cairo-line.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cairo\src\cairo-tag-attributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cairo\src\cairo-script-surface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cairo\src\cairo-pdf-interchange.c">
+      <Filter>PDF\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cairo\src\cairo-tag-stack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
